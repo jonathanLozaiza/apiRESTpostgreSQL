@@ -1,4 +1,5 @@
 import app from "./app"
+import "@babel/polyfill"
 
 function main(){
     app.listen(4000);
